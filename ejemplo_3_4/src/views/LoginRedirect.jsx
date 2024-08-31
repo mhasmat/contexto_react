@@ -32,11 +32,11 @@ const Login = () => {
     const username = event.target.username.value;
     const password = event.target.password.value;
 
-    if(username == "" || password == "") {
+    if(username === "" || password === "") {
       alert("Debe ingresar username y password");
       return;
     }
-    if(password !== "inoveblog") {
+    if(password !== "1234") {
       alert("Password incorrecta");
       return;
     }

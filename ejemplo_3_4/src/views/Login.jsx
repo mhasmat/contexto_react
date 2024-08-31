@@ -31,11 +31,11 @@ const Login = () => {
     const username = event.target.username.value;
     const password = event.target.password.value;
 
-    if(username == "" || password == "") {
+    if(username === "" || password === "") {
       alert("Debe ingresar username y password");
       return;
     }
-    if(password !== "inoveblog") {
+    if(password !== "1234") {
       alert("Password incorrecta");
       return;
     }
@@ -63,7 +63,7 @@ const Login = () => {
         <form className="loginForm" onSubmit={handleSubmit}>
           {label("Usuario:", "text", "","username")}
           {label("Contraseña:", "password", "","password")}
-          <input className={styles.submitButton} type="submit" value="Log In" />
+          <input className={styles.submitButton} type="submit" value="Login" />
         </form>
       </div>
     </div>
