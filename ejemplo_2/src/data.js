@@ -35,6 +35,34 @@ export const posteos = [
     "user_id": 7,
     "usuario": "stan_lee",
   },
+  {
+    "id": 384,
+    "titulo": "Gun Theory",
+    "texto": "The phone rings, and killer-for-hire Harvey embarks on another hit. But nothing's going right this job. There's little room for error in the business of killing - so what happens when one occurs?32 PGS./ PARENTAL ADVISORY ...$2.50",
+    "user_id": 5,
+    "usuario": "tommy_lee",    
+  },
+  {
+    "id": 1308,
+    "titulo": "Marvel Age Spider-Man",
+    "texto": "Spider-Man volumen 2. El héroe nuestro de cada dia...",
+    "user_id": 5,
+    "usuario": "tommy_lee",    
+  },
+  {
+    "id": 27649,
+    "titulo": "Incredible Hulks",
+    "texto": "After picking fights with the Juggernaut, Norman Osborn, and the Wolverine clan, the most insane father and son team in the Marvel Universe might actually be bonding.  But everything's about to blow wide open for Bruce Banner and his big, green, barbarian son Skaar when one of the Hulk's greatest enemies brings back the most important villainess Bruce Banner's ever faced.  Who is the Harpy?  And whose side will Banner take when she and Skaar meet sword to claw in a gamma-powered deathmatch?  Stone might bleed, feathers might fly, and hearts might break in the highest stakes battle yet for Banner and Son! Plus, The Savage SHE-HULK continues her quest to findJennifer Walters in a back-up by Fred Van Lente andMichael Ryan!Rated A ...$3.99",
+    "user_id": 3,
+    "usuario": "dr_house",  
+  },
+  {
+    "id": 98324,
+    "titulo": "Star Wars: Doctor Aphra",
+    "texto": "Un capítulo extraño de la saga Star Wars, muy poco querido por los fanáticos...",
+    "user_id": 3,
+    "usuario": "dr_house", 
+  },
 ]
 
 // export const posteos = [

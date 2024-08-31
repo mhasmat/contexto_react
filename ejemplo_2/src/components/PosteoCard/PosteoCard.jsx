@@ -10,6 +10,10 @@ const PosteoCard = ({comicData}) => {
     "Capitán América": "http://i.annihil.us/u/prod/marvel/i/mg/2/f0/4bc6670c80007/standard_xlarge.jpg",
     "Thanos": "http://i.annihil.us/u/prod/marvel/i/mg/7/50/626847943eeed/standard_xlarge.jpg",
     "Ant-Man": "http://i.annihil.us/u/prod/marvel/i/mg/f/20/4bc69f33cafc0/standard_xlarge.jpg",
+    "Gun Theory": "http://i.annihil.us/u/prod/marvel/i/mg/c/60/4bc69f11baf75/standard_xlarge.jpg",
+    "Marvel Age Spider-Man": "http://i.annihil.us/u/prod/marvel/i/mg/9/20/4bc665483c3aa/standard_xlarge.jpg",
+    "Incredible Hulks": "http://i.annihil.us/u/prod/marvel/i/mg/b/d0/4badb223f33c9/standard_xlarge.jpg",
+    "Star Wars: Doctor Aphra": "http://i.annihil.us/u/prod/marvel/i/mg/9/d0/626846e30fffb/standard_xlarge.jpg",
   }
 
   return (
@@ -23,6 +27,7 @@ const PosteoCard = ({comicData}) => {
                         <img className={styles.backPicture} src={magnifying_glass_logo} alt={"magnify"}></img>
                     </div>
                 </div>
+                {comicData.titulo}
             </div>
             <div className={styles.cardDescription}>
                 <h3 className={styles.cardTitle}>{comicData.texto.length > 120 ? comicData.texto.substring(0, 110) + " ..." : comicData.texto}</h3>
